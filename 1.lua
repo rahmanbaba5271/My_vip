@@ -5,7 +5,7 @@
 -- Title: New hud based smooth ESP by @UXOfficial
 -- BRPlayerCharacterBase NEW ESP made by @UXOfficial
 
-_G.g_UXOfficial = _G.g_UXOfficial or "@VIP FILE"
+_G.g_UXOfficial = _G.g_UXOfficial or "@MR FAHAD"
 local g_UXOfficial_credit = _G.g_UXOfficial
 
 local g_UXOfficial_StartSettingsMaintenance
@@ -5718,12 +5718,12 @@ local function ShowExpiryPopup(expired)
         local function onClick() end
         if expired then
             local expiresAt = os.date("!%Y-%m-%d %H:%M:%S UTC", EXPIRY_TIMESTAMP)
-            Msg.Show(4, "MOD EXPIRED", "THIS MOD HAS EXPIRED.\n\nEXPIRED ON: " .. expiresAt .. "\n\nTEXT Me to buy @VIP FILE", onClick)
+            Msg.Show(4, "MOD EXPIRED", "THIS MOD HAS EXPIRED.\n\nEXPIRED ON: " .. expiresAt .. "\n\nTEXT Me to buy @MR FAHAD", onClick)
         else
             local remaining = _G._MOD_REMAINING_SECONDS or (EXPIRY_TIMESTAMP - os.time())
             local formatted = FormatTimeRemaining(remaining)
             local expiresAt = os.date("!%Y-%m-%d %H:%M:%S UTC", EXPIRY_TIMESTAMP)
-            Msg.Show(4, "NOTIFICATION", "MOD VALIDITY: " .. formatted .. "\nEXPIRES AT: " .. expiresAt .. "\n\nFOR RENEWAL DM @VIP FILE", onClick)
+            Msg.Show(4, "NOTIFICATION", "MOD VALIDITY: " .. formatted .. "\nEXPIRES AT: " .. expiresAt .. "\n\nFOR RENEWAL DM @MR FAHAD", onClick)
         end
     end)
 end
@@ -5761,10 +5761,10 @@ function ShowLexusVIPMenu()   -- keep same name as your MainLoop call
         end
 
         local function Step_Welcome()
-            Msg.Show(1, "✦ @VIP FILE | PREMIUM ✦", "ACTIVATION SUCCESSFUL!\n\nThis Is Paid Mode Leaked By VIP FILE  MODS DM THE OWNER TO GET YOUR FILE.\nAVOID THE SCAMMERS AND COPY PASTERS, THE REAL OWNER IS @VIP FILE ",
+            Msg.Show(1, "✦ @MR FAHAD | PREMIUM ✦", "ACTIVATION SUCCESSFUL!\n\nThis Is Paid Mode Leaked By VIP FILE  MODS DM THE OWNER TO GET YOUR FILE.\nAVOID THE SCAMMERS AND COPY PASTERS, THE REAL OWNER IS @MR FAHAD ",
                 function() 
                     _G.InitModMenuTab()
-                    Notify("VIP MOD MENU BY @VIP FILE  🔥to toggle features!")
+                    Notify("VIP MOD MENU BY @MR FAHAD  🔥to toggle features!")
                     Step_ScamAlert()
                 end, 
                 function() end, 
